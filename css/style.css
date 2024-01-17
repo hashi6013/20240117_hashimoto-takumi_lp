@@ -309,10 +309,14 @@ h3 {
 }
 
 /* recruit */
+
+.recruit {
+    max-width: 1500px;
+    margin: 0 auto;
+}
 .recruit__inner {
     display: flex;
 }
-
 .recruit-info {
     position: relative;
 }
@@ -332,17 +336,29 @@ h3 {
     transform: translate(-50%, -50%);
 }
 .recruit-info__link {
+    display: inline-block;
     color: #fff;
 }
 .recruit-interview__link {
+    display: inline-block;
     color: #fff;
 }
+
+/* 修正点 */
+.recruit-info__img {
+    width: 750px;
+}
+.recruit-interview__img {
+    width: 750px;
+}
+
+
+
 /* contact */
 .contact__inner {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
-    /* background-color: #b2889e; */
 }
 .contact__inner-title {
     font-weight: bold;
